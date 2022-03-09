@@ -51,6 +51,14 @@ public class Locators {
 		
 		forgotlink2.click();
 		
+		// tagname
+		
+		WebElement username1 = driver.findElement(By.tagName("input"));
+		
+		
+		
+		
+		
 	}
 
 }

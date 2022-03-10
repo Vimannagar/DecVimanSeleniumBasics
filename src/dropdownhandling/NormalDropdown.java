@@ -1,10 +1,12 @@
-package basiccomponents;
+package dropdownhandling;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
-public class FacebookSignuo {
+public class NormalDropdown {
 
 	
 	public static void main(String[] args) {
@@ -18,9 +20,12 @@ public class FacebookSignuo {
 
 		driver.get("https://www.facebook.com/signup");
 		
-		driver.findElement(By.xpath("//input[contains(@id,'u_0_')]")).sendKeys("Gourav");
-
+		WebElement day = driver.findElement(By.xpath("//*[@id='day']"));
 		
-		driver.findElement(By.xpath("(//*[@value='2'])[3]")).click();
+		Select sel = new Select(day);
+		
+		sel.selectByVisibleText("25");
+		
+		
 	}
 }

@@ -11,9 +11,6 @@ public class Locators {
 		System.setProperty("webdriver.chrome.driver",
 				"E:\\Desktop\\VimanNagar\\Dec 21\\Selenium downloads\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
-		
-
 		driver.manage().window().maximize();// maximize the window of the browser
 
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/dashboard");

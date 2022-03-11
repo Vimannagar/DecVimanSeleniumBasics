@@ -27,5 +27,21 @@ public class NormalDropdown {
 		sel.selectByVisibleText("25");
 		
 		
+		WebElement month = driver.findElement(By.xpath("//*[@id='month']"));
+		
+		Select sel1 = new Select(month);
+		
+		sel1.selectByValue("8");
+		
+		
+		
+		WebElement year = driver.findElement(By.xpath("//*[@id='year']"));
+		
+		Select sel2 = new Select(year);
+		
+		sel2.selectByIndex(6);
+		
+		
+		
 	}
 }

@@ -19,8 +19,12 @@ public class ScreenShot {
 		File source = scrshot.getScreenshotAs(OutputType.FILE);
 		
 		
-		File destination = new File("E:\\Desktop\\VimanNagar\\Dec 21\\Screenshots\\"+name+".png");
+//		File destination = new File("E:\\Desktop\\VimanNagar\\Dec 21\\Screenshots\\"+name+".png");
 	
+		String path = System.getProperty("user.dir")+"\\screenshots\\"+name+".png";
+		
+		File destination = new File(path);
+		
 		FileHandler.copy(source, destination);
 	
 		

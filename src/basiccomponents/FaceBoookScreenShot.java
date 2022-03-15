@@ -22,7 +22,7 @@ public class FaceBoookScreenShot {
 		driver.findElement(By.xpath("//input[contains(@id,'u_0_')]")).sendKeys("Dec21Batch");
 		
 		
-		ScreenShot.captureScreenShot(driver, "scr1");
+		ScreenShot.captureScreenShot(driver, "scr2");
 		
 	}
 

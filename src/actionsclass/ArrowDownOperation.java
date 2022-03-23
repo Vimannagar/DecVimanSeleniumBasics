@@ -25,10 +25,10 @@ public class ArrowDownOperation {
 		
 		Actions act = new Actions(driver);
 		
-		act.sendKeys(Keys.ARROW_DOWN).
-		sendKeys(Keys.ARROW_DOWN)
-		.sendKeys(Keys.ENTER)
-		.build().perform();
+//		act.sendKeys(Keys.ARROW_DOWN).
+//		sendKeys(Keys.ARROW_DOWN)
+//		.sendKeys(Keys.ENTER)
+//		.build().perform();
 		
 		
 	

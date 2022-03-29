@@ -21,18 +21,37 @@ public class ExplicitWaitDisc {
 		driver.get("https://chercher.tech/practice/explicit-wait-sample-selenium-webdriver");
 
 	
-		driver.findElement(By.xpath("//*[@id='enable-button']")).click();
+//		driver.findElement(By.xpath("//*[@id='enable-button']")).click();
 
-		WebElement disablebutton = driver.findElement(By.xpath("//*[@id='disable']"));
+//		WebElement disablebutton = driver.findElement(By.xpath("//*[@id='disable']"));
 		
-		WebDriverWait wait = new WebDriverWait(driver,5);
+		WebDriverWait wait = new WebDriverWait(driver,50);
 		
-		wait.until(ExpectedConditions.elementToBeClickable(disablebutton));
+//		wait.until(ExpectedConditions.elementToBeClickable(disablebutton));
+//		
+//		
+//		driver.findElement(By.xpath("//*[@id='enable-button']")).click();
 		
 		
-		driver.findElement(By.xpath("//*[@id='enable-button']")).click();
-		
+		driver.findElement(By.xpath("//*[@id='display-other-button']")).click();
 	
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='hidden']")));
+		
+		driver.findElement(By.xpath("//*[@id='display-other-button']")).click();
+		
+		
+//		handling alert pop up with explicit wait
+		
+		driver.findElement(By.xpath("//*[@id='alert']")).click();
+		
+		wait.until(ExpectedConditions.alertIsPresent());
+		
+		driver.switchTo().alert().accept();// handling the alert pop up
+	
+//		Assignment -- > to handle the text based on wait, 
+//						to wait till the checkbox get selected and its status become true
+		
+		
 		
 	}
 

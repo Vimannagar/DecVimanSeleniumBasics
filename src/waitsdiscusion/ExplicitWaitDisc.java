@@ -33,25 +33,27 @@ public class ExplicitWaitDisc {
 //		driver.findElement(By.xpath("//*[@id='enable-button']")).click();
 		
 		
-		driver.findElement(By.xpath("//*[@id='display-other-button']")).click();
-	
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='hidden']")));
-		
-		driver.findElement(By.xpath("//*[@id='display-other-button']")).click();
+//		driver.findElement(By.xpath("//*[@id='display-other-button']")).click();
+//	
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='hidden']")));
+//		
+//		driver.findElement(By.xpath("//*[@id='display-other-button']")).click();
 		
 		
 //		handling alert pop up with explicit wait
 		
-		driver.findElement(By.xpath("//*[@id='alert']")).click();
-		
-		wait.until(ExpectedConditions.alertIsPresent());
-		
-		driver.switchTo().alert().accept();// handling the alert pop up
+//		driver.findElement(By.xpath("//*[@id='alert']")).click();
+//		
+//		wait.until(ExpectedConditions.alertIsPresent());
+//		
+//		driver.switchTo().alert().accept();// handling the alert pop up
 	
 //		Assignment -- > to handle the text based on wait, 
 //						to wait till the checkbox get selected and its status become true
-		
-		
+	
+//		wait till Text to be present 
+		driver.findElement(By.xpath("//*[@id='populate-text']")).click();
+		wait.until(ExpectedConditions.textToBe(By.xpath("//*[@id='h2']"), "Selenium Webdriver"));
 		
 	}
 

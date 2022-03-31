@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Sequence Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Sequence Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 31 10:06:06 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (267 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='multipleclasstestngexecution.DashBoard.checkBox()'><b>checkBox</b><br>Test class: multipleclasstestngexecution.DashBoard<br/>
+<a href="#Output-93199773" onClick='toggleBox("Output-93199773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-93199773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-93199773">
+check box test case<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>multipleclasstestngexecution.DashBoard@7db12bb6</td></tr>
+<tr>
+<td title='multipleclasstestngexecution.Profile.logout()'><b>logout</b><br>Test class: multipleclasstestngexecution.Profile<br/>
+<a href="#Output-643290333" onClick='toggleBox("Output-643290333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-643290333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-643290333">
+Logout test case<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>multipleclasstestngexecution.Profile@783a467b</td></tr>
+<tr>
+<td title='multipleclasstestngexecution.Login.urlVerification()'><b>urlVerification</b><br>Test class: multipleclasstestngexecution.Login<br/>
+<a href="#Output-454884231" onClick='toggleBox("Output-454884231", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-454884231" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-454884231">
+This is test case 1<br/>
+This is test case next line<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>multipleclasstestngexecution.Login@51e69659</td></tr>
+<tr>
+<td title='multipleclasstestngexecution.DashBoard.handlingPopup()'><b>handlingPopup</b><br>Test class: multipleclasstestngexecution.DashBoard<br/>
+<a href="#Output-1147805316" onClick='toggleBox("Output-1147805316", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1147805316" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1147805316">
+pop up testcase<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>multipleclasstestngexecution.DashBoard@7db12bb6</td></tr>
+<tr>
+<td title='multipleclasstestngexecution.Login.loginWithCorrectCreds()'><b>loginWithCorrectCreds</b><br>Test class: multipleclasstestngexecution.Login<br/>
+<a href="#Output-441001942" onClick='toggleBox("Output-441001942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-441001942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-441001942">
+This is test case 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>multipleclasstestngexecution.Login@51e69659</td></tr>
+</table><p>
+</body>
+</html>

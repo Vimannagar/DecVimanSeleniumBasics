@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class PriorityKeyword {
 	
-	@Test(priority = 1)
+	@Test(priority = 0)
 	public void login()
 	{
 		System.out.println("login test case");
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = -2)
 	public void home()
 	{
 		System.out.println("home test case");
@@ -22,7 +22,7 @@ public class PriorityKeyword {
 		System.out.println("DashBoard test case");
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = -400)
 	public void profile()
 	{
 		System.out.println("profile test case");

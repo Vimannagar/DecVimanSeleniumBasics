@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[This is test case 2]]>
+    </line>
+    <line>
+      <![CDATA[This is test case 1]]>
+    </line>
+    <line>
+      <![CDATA[This is test case next line]]>
+    </line>
+    <line>
+      <![CDATA[check box test case]]>
+    </line>
+    <line>
+      <![CDATA[pop up testcase]]>
+    </line>
+    <line>
+      <![CDATA[Logout test case]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-03-30T10:23:30 IST" name="Default suite" finished-at="2022-03-30T10:23:30 IST" duration-ms="113">
+  <suite started-at="2022-03-31T10:06:06 IST" name="Run multiple classes" finished-at="2022-03-31T10:06:07 IST" duration-ms="267">
     <groups>
     </groups>
-    <test started-at="2022-03-30T10:23:30 IST" name="Default test" finished-at="2022-03-30T10:23:30 IST" duration-ms="113">
-      <class name="testngdiscussion.PriorityKeyword">
-        <test-method signature="login()[pri:1, instance:testngdiscussion.PriorityKeyword@27462a88]" started-at="2022-03-30T10:23:30 IST" name="login" finished-at="2022-03-30T10:23:30 IST" duration-ms="13" status="PASS">
+    <test started-at="2022-03-31T10:06:06 IST" name="Sequence Test" finished-at="2022-03-31T10:06:07 IST" duration-ms="267">
+      <class name="multipleclasstestngexecution.DashBoard">
+        <test-method signature="checkBox()[pri:0, instance:multipleclasstestngexecution.DashBoard@7db12bb6]" started-at="2022-03-31T10:06:07 IST" name="checkBox" finished-at="2022-03-31T10:06:07 IST" duration-ms="19" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[check box test case]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.PriorityKeyword@27462a88]" started-at="2022-03-30T10:23:30 IST" name="home" finished-at="2022-03-30T10:23:30 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- checkBox -->
+        <test-method signature="handlingPopup()[pri:0, instance:multipleclasstestngexecution.DashBoard@7db12bb6]" started-at="2022-03-31T10:06:07 IST" name="handlingPopup" finished-at="2022-03-31T10:06:07 IST" duration-ms="3" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[pop up testcase]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="dashBoard()[pri:3, instance:testngdiscussion.PriorityKeyword@27462a88]" started-at="2022-03-30T10:23:30 IST" name="dashBoard" finished-at="2022-03-30T10:23:30 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- handlingPopup -->
+      </class> <!-- multipleclasstestngexecution.DashBoard -->
+      <class name="multipleclasstestngexecution.Login">
+        <test-method signature="loginWithCorrectCreds()[pri:0, instance:multipleclasstestngexecution.Login@51e69659]" started-at="2022-03-31T10:06:07 IST" name="loginWithCorrectCreds" finished-at="2022-03-31T10:06:07 IST" duration-ms="53" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[This is test case 2]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- dashBoard -->
-        <test-method signature="profile()[pri:4, instance:testngdiscussion.PriorityKeyword@27462a88]" started-at="2022-03-30T10:23:30 IST" name="profile" finished-at="2022-03-30T10:23:30 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- loginWithCorrectCreds -->
+        <test-method signature="urlVerification()[pri:0, instance:multipleclasstestngexecution.Login@51e69659]" started-at="2022-03-31T10:06:07 IST" name="urlVerification" finished-at="2022-03-31T10:06:07 IST" duration-ms="4" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[This is test case 1]]>
+            </line>
+            <line>
+              <![CDATA[This is test case next line]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- profile -->
-      </class> <!-- testngdiscussion.PriorityKeyword -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- urlVerification -->
+      </class> <!-- multipleclasstestngexecution.Login -->
+      <class name="multipleclasstestngexecution.Profile">
+        <test-method signature="logout()[pri:0, instance:multipleclasstestngexecution.Profile@783a467b]" started-at="2022-03-31T10:06:07 IST" name="logout" finished-at="2022-03-31T10:06:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout test case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- multipleclasstestngexecution.Profile -->
+    </test> <!-- Sequence Test -->
+  </suite> <!-- Run multiple classes -->
 </testng-results>

@@ -1,73 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[This is test case 2]]>
-    </line>
-    <line>
-      <![CDATA[This is test case 1]]>
-    </line>
-    <line>
-      <![CDATA[This is test case next line]]>
-    </line>
-    <line>
-      <![CDATA[check box test case]]>
-    </line>
-    <line>
-      <![CDATA[pop up testcase]]>
-    </line>
-    <line>
-      <![CDATA[Logout test case]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-03-31T10:06:06 IST" name="Run multiple classes" finished-at="2022-03-31T10:06:07 IST" duration-ms="267">
+  <suite started-at="2022-04-01T09:50:52 IST" name="Suite" finished-at="2022-04-01T09:50:52 IST" duration-ms="95">
     <groups>
     </groups>
-    <test started-at="2022-03-31T10:06:06 IST" name="Sequence Test" finished-at="2022-03-31T10:06:07 IST" duration-ms="267">
-      <class name="multipleclasstestngexecution.DashBoard">
-        <test-method signature="checkBox()[pri:0, instance:multipleclasstestngexecution.DashBoard@7db12bb6]" started-at="2022-03-31T10:06:07 IST" name="checkBox" finished-at="2022-03-31T10:06:07 IST" duration-ms="19" status="PASS">
+    <test started-at="2022-04-01T09:50:52 IST" name="Test" finished-at="2022-04-01T09:50:52 IST" duration-ms="95">
+      <class name="testngdiscussion.AnnotationsInTestNg">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="beforeSuite" finished-at="2022-04-01T09:50:52 IST" duration-ms="21" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[check box test case]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- checkBox -->
-        <test-method signature="handlingPopup()[pri:0, instance:multipleclasstestngexecution.DashBoard@7db12bb6]" started-at="2022-03-31T10:06:07 IST" name="handlingPopup" finished-at="2022-03-31T10:06:07 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest1()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="beforeTest1" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[pop up testcase]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- handlingPopup -->
-      </class> <!-- multipleclasstestngexecution.DashBoard -->
-      <class name="multipleclasstestngexecution.Login">
-        <test-method signature="loginWithCorrectCreds()[pri:0, instance:multipleclasstestngexecution.Login@51e69659]" started-at="2022-03-31T10:06:07 IST" name="loginWithCorrectCreds" finished-at="2022-03-31T10:06:07 IST" duration-ms="53" status="PASS">
+        </test-method> <!-- beforeTest1 -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="beforeClass" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[This is test case 2]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- loginWithCorrectCreds -->
-        <test-method signature="urlVerification()[pri:0, instance:multipleclasstestngexecution.Login@51e69659]" started-at="2022-03-31T10:06:07 IST" name="urlVerification" finished-at="2022-03-31T10:06:07 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="beforeMethod" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[This is test case 1]]>
-            </line>
-            <line>
-              <![CDATA[This is test case next line]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- urlVerification -->
-      </class> <!-- multipleclasstestngexecution.Login -->
-      <class name="multipleclasstestngexecution.Profile">
-        <test-method signature="logout()[pri:0, instance:multipleclasstestngexecution.Profile@783a467b]" started-at="2022-03-31T10:06:07 IST" name="logout" finished-at="2022-03-31T10:06:07 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="testCase1" finished-at="2022-04-01T09:50:52 IST" duration-ms="9" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Logout test case]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- multipleclasstestngexecution.Profile -->
-    </test> <!-- Sequence Test -->
-  </suite> <!-- Run multiple classes -->
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="afterMethod" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testCase2()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="testCase2" finished-at="2022-04-01T09:50:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="beforeMethod" finished-at="2022-04-01T09:50:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="afterMethod" finished-at="2022-04-01T09:50:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="AfterClass" finished-at="2022-04-01T09:50:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testngdiscussion.AnnotationsInTestNg@2ddc9a9f]" started-at="2022-04-01T09:50:52 IST" name="afterSuite" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testngdiscussion.AnnotationsInTestNg -->
+      <class name="testngdiscussion.AnnotationInTestNG2">
+        <test-method is-config="true" signature="beforeClass2()[pri:0, instance:testngdiscussion.AnnotationInTestNG2@7526515b]" started-at="2022-04-01T09:50:52 IST" name="beforeClass2" finished-at="2022-04-01T09:50:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass2 -->
+        <test-method signature="testCase3()[pri:0, instance:testngdiscussion.AnnotationInTestNG2@7526515b]" started-at="2022-04-01T09:50:52 IST" name="testCase3" finished-at="2022-04-01T09:50:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="afterClass2()[pri:0, instance:testngdiscussion.AnnotationInTestNG2@7526515b]" started-at="2022-04-01T09:50:52 IST" name="afterClass2" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass2 -->
+        <test-method is-config="true" signature="afterTest1()[pri:0, instance:testngdiscussion.AnnotationInTestNG2@7526515b]" started-at="2022-04-01T09:50:52 IST" name="afterTest1" finished-at="2022-04-01T09:50:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest1 -->
+      </class> <!-- testngdiscussion.AnnotationInTestNG2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

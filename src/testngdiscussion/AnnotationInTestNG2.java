@@ -22,9 +22,9 @@ public class AnnotationInTestNG2 {
 	}
 	
 	@AfterTest
-	public void afterTest1()
+	public void afterTest2()
 	{
-		System.out.println("after test 1");
+		System.out.println("after test 2");
 	}
 	
 	@Test

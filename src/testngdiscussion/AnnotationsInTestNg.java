@@ -30,6 +30,13 @@ public class AnnotationsInTestNg {
 		System.out.println("Before test 1");
 	}
 	
+	@AfterTest
+	public void afterTest1()
+	{
+		System.out.println("after test 1");
+	}
+	
+	
 	
 	
 	@Test

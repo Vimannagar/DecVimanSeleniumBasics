@@ -5,10 +5,7 @@
     <classes>
       <class name="testngdiscussion.DependsOnMethodDisc">
         <methods>
-          <include name="dashBoard"/>
           <include name="login"/>
-          <include name="logout"/>
-          <include name="profile"/>
         </methods>
       </class> <!-- testngdiscussion.DependsOnMethodDisc -->
     </classes>

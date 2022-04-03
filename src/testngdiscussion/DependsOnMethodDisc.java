@@ -12,7 +12,7 @@ public class DependsOnMethodDisc {
 		throw new NullPointerException();
 	}
 	
-	@Test(priority = 2, dependsOnMethods = "login")
+	@Test(priority = 2, dependsOnMethods = "login", alwaysRun = true)
 	public void dashBoard()
 	{
 		System.out.println("Dashboard");

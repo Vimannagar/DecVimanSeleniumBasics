@@ -1,101 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="2" failed="1" skipped="0">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-02T10:39:17 IST" name="Suite" finished-at="2022-04-02T10:39:38 IST" duration-ms="20444">
+  <suite started-at="2022-04-03T20:11:03 IST" name="Suite" finished-at="2022-04-03T20:11:03 IST" duration-ms="116">
     <groups>
+      <group name="Functional">
+        <method signature="GroupingOfTestCase.dashBoard()[pri:2, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" name="dashBoard" class="testngdiscussion.GroupingOfTestCase"/>
+        <method signature="GroupingOfTestCase2.editDetails()[pri:2, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" name="editDetails" class="testngdiscussion.GroupingOfTestCase2"/>
+      </group> <!-- Functional -->
+      <group name="Sanity">
+        <method signature="GroupingOfTestCase.dashBoard()[pri:2, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" name="dashBoard" class="testngdiscussion.GroupingOfTestCase"/>
+        <method signature="GroupingOfTestCase.login()[pri:1, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" name="login" class="testngdiscussion.GroupingOfTestCase"/>
+        <method signature="GroupingOfTestCase2.myInfo()[pri:1, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" name="myInfo" class="testngdiscussion.GroupingOfTestCase2"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2022-04-02T10:39:17 IST" name="Test" finished-at="2022-04-02T10:39:38 IST" duration-ms="20444">
-      <class name="testngdiscussion.TC1">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testngdiscussion.TC1@1a942c18]" started-at="2022-04-02T10:38:59 IST" name="initBrowser" finished-at="2022-04-02T10:39:17 IST" duration-ms="18180" status="PASS">
+    <test started-at="2022-04-03T20:11:03 IST" name="Test" finished-at="2022-04-03T20:11:03 IST" duration-ms="116">
+      <class name="testngdiscussion.GroupingOfTestCase2">
+        <test-method signature="myInfo()[pri:1, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" started-at="2022-04-03T20:11:03 IST" name="myInfo" finished-at="2022-04-03T20:11:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="login()[pri:1, instance:testngdiscussion.TC1@1a942c18]" started-at="2022-04-02T10:39:17 IST" name="login" finished-at="2022-04-02T10:39:27 IST" duration-ms="9293" status="PASS">
+        </test-method> <!-- myInfo -->
+        <test-method signature="editDetails()[pri:2, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" started-at="2022-04-03T20:11:03 IST" name="editDetails" finished-at="2022-04-03T20:11:03 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testngdiscussion.TC1 -->
-      <class name="testngdiscussion.TC2">
-        <test-method signature="login()[pri:1, instance:testngdiscussion.TC2@5ab956d7]" started-at="2022-04-02T10:39:27 IST" name="login" finished-at="2022-04-02T10:39:29 IST" duration-ms="2633" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsername']"}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-V5MLE2I', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a5c75d4cbb8f53a7637d68ee81b15470, findElement {using=xpath, value=//input[@id='txtUsername']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52005/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a5c75d4cbb8f53a7637d68ee81b15470]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtUsername']"}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-V5MLE2I', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a5c75d4cbb8f53a7637d68ee81b15470, findElement {using=xpath, value=//input[@id='txtUsername']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52005/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a5c75d4cbb8f53a7637d68ee81b15470
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at testngdiscussion.TC1.login(TC1.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- editDetails -->
+      </class> <!-- testngdiscussion.GroupingOfTestCase2 -->
+      <class name="testngdiscussion.GroupingOfTestCase">
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="beforeGroup" finished-at="2022-04-03T20:11:03 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method signature="login()[pri:1, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="login" finished-at="2022-04-03T20:11:03 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="checkBox()[pri:2, instance:testngdiscussion.TC2@5ab956d7]" started-at="2022-04-02T10:39:29 IST" name="checkBox" finished-at="2022-04-02T10:39:38 IST" duration-ms="8359" status="PASS">
+        <test-method signature="dashBoard()[pri:2, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="dashBoard" finished-at="2022-04-03T20:11:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBox -->
-      </class> <!-- testngdiscussion.TC2 -->
+        </test-method> <!-- dashBoard -->
+        <test-method is-config="true" signature="afterGroup()[pri:0, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="afterGroup" finished-at="2022-04-03T20:11:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroup -->
+      </class> <!-- testngdiscussion.GroupingOfTestCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

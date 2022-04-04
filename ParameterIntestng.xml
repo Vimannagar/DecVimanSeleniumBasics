@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="operatingsystem" value="windows"></parameter>
+  <test thread-count="5" name="Test1">
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="urltobelaunch" value="https://www.facebook.com/signup"></parameter>
+  <parameter name="environment" value="Stage"></parameter>
+  <parameter name="version" value="0.0.12"></parameter>
+    <classes>
+      <class name="testngdiscussion.ParameterInTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+ 
+    <classes>
+      <class name="testngdiscussion.ParameterInTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

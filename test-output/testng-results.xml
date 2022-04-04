@@ -1,48 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-03T20:11:03 IST" name="Suite" finished-at="2022-04-03T20:11:03 IST" duration-ms="116">
+  <suite started-at="2022-04-04T10:01:30 IST" name="Suite" finished-at="2022-04-04T10:02:27 IST" duration-ms="57454">
     <groups>
-      <group name="Functional">
-        <method signature="GroupingOfTestCase.dashBoard()[pri:2, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" name="dashBoard" class="testngdiscussion.GroupingOfTestCase"/>
-        <method signature="GroupingOfTestCase2.editDetails()[pri:2, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" name="editDetails" class="testngdiscussion.GroupingOfTestCase2"/>
-      </group> <!-- Functional -->
-      <group name="Sanity">
-        <method signature="GroupingOfTestCase.dashBoard()[pri:2, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" name="dashBoard" class="testngdiscussion.GroupingOfTestCase"/>
-        <method signature="GroupingOfTestCase.login()[pri:1, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" name="login" class="testngdiscussion.GroupingOfTestCase"/>
-        <method signature="GroupingOfTestCase2.myInfo()[pri:1, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" name="myInfo" class="testngdiscussion.GroupingOfTestCase2"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2022-04-03T20:11:03 IST" name="Test" finished-at="2022-04-03T20:11:03 IST" duration-ms="116">
-      <class name="testngdiscussion.GroupingOfTestCase2">
-        <test-method signature="myInfo()[pri:1, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" started-at="2022-04-03T20:11:03 IST" name="myInfo" finished-at="2022-04-03T20:11:03 IST" duration-ms="2" status="PASS">
+    <test started-at="2022-04-04T10:01:30 IST" name="Test" finished-at="2022-04-04T10:02:27 IST" duration-ms="57454">
+      <class name="testngdiscussion.ParallelExecutionOfTestCase">
+        <test-method signature="facebook()[pri:0, instance:testngdiscussion.ParallelExecutionOfTestCase@201a4587]" started-at="2022-04-04T10:01:30 IST" name="facebook" finished-at="2022-04-04T10:02:27 IST" duration-ms="57103" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myInfo -->
-        <test-method signature="editDetails()[pri:2, instance:testngdiscussion.GroupingOfTestCase2@2a7f1f10]" started-at="2022-04-03T20:11:03 IST" name="editDetails" finished-at="2022-04-03T20:11:03 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- facebook -->
+        <test-method signature="google()[pri:0, instance:testngdiscussion.ParallelExecutionOfTestCase@201a4587]" started-at="2022-04-04T10:01:30 IST" name="google" finished-at="2022-04-04T10:02:26 IST" duration-ms="56358" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editDetails -->
-      </class> <!-- testngdiscussion.GroupingOfTestCase2 -->
-      <class name="testngdiscussion.GroupingOfTestCase">
-        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="beforeGroup" finished-at="2022-04-03T20:11:03 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeGroup -->
-        <test-method signature="login()[pri:1, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="login" finished-at="2022-04-03T20:11:03 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="dashBoard()[pri:2, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="dashBoard" finished-at="2022-04-03T20:11:03 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashBoard -->
-        <test-method is-config="true" signature="afterGroup()[pri:0, instance:testngdiscussion.GroupingOfTestCase@70e9c95d]" started-at="2022-04-03T20:11:03 IST" name="afterGroup" finished-at="2022-04-03T20:11:03 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterGroup -->
-      </class> <!-- testngdiscussion.GroupingOfTestCase -->
+        </test-method> <!-- google -->
+      </class> <!-- testngdiscussion.ParallelExecutionOfTestCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

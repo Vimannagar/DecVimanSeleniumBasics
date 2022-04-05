@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" class="navigator-link">
+              <span class="suite-name border-failed">Failed suite [Failed suite [Default suite]]</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>E:\Desktop\VimanNagar\May 21\Dec21SeleniumBasics\ParallelTestCaseExecutiontestng.xml</span>
+                  <a href="#" panel-name="test-xml-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
+                    <span>E:\Desktop\VimanNagar\May 21\Dec21SeleniumBasics\test-output\testng-failed.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Failed_suite__Failed_suite__Default_suite__" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,26 +93,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" class="hide-methods failed suite-Failed_suite__Failed_suite__Default_suite__"> (hide)</a> <!-- hide-methods failed suite-Failed_suite__Failed_suite__Default_suite__ -->
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" class="show-methods failed suite-Failed_suite__Failed_suite__Default_suite__"> (show)</a> <!-- show-methods failed suite-Failed_suite__Failed_suite__Default_suite__ -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Failed_suite__Failed_suite__Default_suite__">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngdiscussion.ParallelExecutionOfTestCase" class="method navigator-link" hash-for-method="facebook">facebook</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" title="testngdiscussion.FailedTestCaseExecution" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-Failed_suite__Failed_suite__Default_suite__ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" class="hide-methods skipped suite-Failed_suite__Failed_suite__Default_suite__"> (hide)</a> <!-- hide-methods skipped suite-Failed_suite__Failed_suite__Default_suite__ -->
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" class="show-methods skipped suite-Failed_suite__Failed_suite__Default_suite__"> (show)</a> <!-- show-methods skipped suite-Failed_suite__Failed_suite__Default_suite__ -->
+                    </span>
+                    <div class="method-list-content skipped suite-Failed_suite__Failed_suite__Default_suite__">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngdiscussion.ParallelExecutionOfTestCase" class="method navigator-link" hash-for-method="google">google</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Default_suite__" title="testngdiscussion.FailedTestCaseExecution" class="method navigator-link" hash-for-method="dashBoard">dashBoard</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Failed_suite__Failed_suite__Default_suite__ -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -123,76 +132,98 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+        <div panel-name="suite-Failed_suite__Failed_suite__Default_suite__" class="panel Failed_suite__Failed_suite__Default_suite__">
+          <div class="suite-Failed_suite__Failed_suite__Default_suite__-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testngdiscussion.ParallelExecutionOfTestCase</span>
+              <img src="failed.png"/>
+              <span class="class-name">testngdiscussion.FailedTestCaseExecution</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="facebook">
-                  </a> <!-- facebook -->
-                  <span class="method-name">facebook</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="google">
-                  </a> <!-- google -->
-                  <span class="method-name">google</span>
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at testngdiscussion.FailedTestCaseExecution.login(FailedTestCaseExecution.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-Failed_suite__Failed_suite__Default_suite__-class-failed -->
+          <div class="suite-Failed_suite__Failed_suite__Default_suite__-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testngdiscussion.FailedTestCaseExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashBoard">
+                  </a> <!-- dashBoard -->
+                  <span class="method-name">dashBoard</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FailedTestCaseExecution.dashBoard()[pri:2, instance:testngdiscussion.FailedTestCaseExecution@26e356f0] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Failed_suite__Default_suite__-class-skipped -->
+        </div> <!-- panel Failed_suite__Failed_suite__Default_suite__ -->
+        <div panel-name="test-xml-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Desktop\VimanNagar\May 21\Dec21SeleniumBasics\ParallelTestCaseExecutiontestng.xml</span>
+            <span class="header-content">E:\Desktop\VimanNagar\May 21\Dec21SeleniumBasics\test-output\testng-failed.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Failed suite [Failed suite [Default suite]]&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test(failed)(failed)&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testngdiscussion.ParallelExecutionOfTestCase&quot;/&gt;
+      &lt;class name=&quot;testngdiscussion.FailedTestCaseExecution&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login&quot;/&gt;
+          &lt;include name=&quot;dashBoard&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testngdiscussion.FailedTestCaseExecution --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed)(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Failed suite [Default suite]] --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for Failed suite [Failed suite [Default suite]]</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Default test(failed)(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for Failed suite [Failed suite [Default suite]]</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for Failed suite [Failed suite [Default suite]]</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_Failed_suite__Failed_suite__Default_suite__');
+function tableData_Failed_suite__Failed_suite__Default_suite__() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -200,51 +231,62 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'facebook')
-data.setCell(0, 2, 'testngdiscussion.ParallelExecutionOfTestCase')
-data.setCell(0, 3, 57103);
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'testngdiscussion.FailedTestCaseExecution')
+data.setCell(0, 3, 16);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'google')
-data.setCell(1, 2, 'testngdiscussion.ParallelExecutionOfTestCase')
-data.setCell(1, 3, 56358);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(1, 1, 'dashBoard')
+data.setCell(1, 2, 'testngdiscussion.FailedTestCaseExecution')
+data.setCell(1, 3, 0);
+window.suiteTableData['Failed_suite__Failed_suite__Default_suite__']= { tableData: data, tableDiv: 'times-div-Failed_suite__Failed_suite__Default_suite__'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 16 ms</span>
+              <div id="times-div-Failed_suite__Failed_suite__Default_suite__">
+              </div> <!-- times-div-Failed_suite__Failed_suite__Default_suite__ -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for Failed suite [Failed suite [Default suite]]</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testngdiscussion.FailedTestCaseExecution</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">profile</span>
+                <br/>
+                <span class="ignored-method-name">logout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-Failed_suite__Failed_suite__Default_suite__" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testngdiscussion.ParallelExecutionOfTestCase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testngdiscussion.FailedTestCaseExecution</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">facebook</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">google</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">dashBoard</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

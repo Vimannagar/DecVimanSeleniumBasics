@@ -12,7 +12,7 @@ public class ReporterClass {
 		
 		Reporter.log("This is test case 1", true);
 		Reporter.log("This is test case next line", true);
-		
+			
 	}
 
 }

@@ -10,7 +10,7 @@ public class AnnotationInTestNG2 {
 	
 	
 	@BeforeClass
-	public void beforeClass2()
+	public void  beforeClass2()
 	{
 		System.out.println("Before class 2");
 	}
